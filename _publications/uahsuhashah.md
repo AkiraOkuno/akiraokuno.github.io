@@ -1,14 +1,17 @@
 ---
-title: "Paper Title Number 5"
+title: "BlockBoost: Scalable and Efficient Blocking through Boosting"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-5
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/blockboost
+excerpt: "We introduce BlockBoost, a novel boosting-based method that generates compact binary hash codes for database entries, through which blocking can be performed efficiently"
+date: 2024-04-18
+venue: 'AISTATS'
+paperurl: 'https://proceedings.mlr.press/v238/ramos24a.html'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+As datasets grow larger, matching and merging entries from different databases has become a costly task in modern data pipelines. To avoid expensive comparisons between entries, blocking similar items is a popular preprocessing step. In this paper, we introduce BlockBoost, a novel boosting-based method that generates compact binary hash codes for database entries, through which blocking can be performed efficiently. The algorithm is fast and scalable, resulting in computational costs that are orders of magnitude lower than current benchmarks. Unlike existing alternatives, BlockBoost comes with associated feature importance measures for interpretability, and possesses strong theoretical guarantees, including lower bounds on critical performance metrics like recall and reduction ratio. Finally, we show that BlockBoost delivers great empirical results, outperforming state-of-the-art blocking benchmarks in terms of both performance metrics and computational cost.
+
+![BlockBoost](/images/blockboost.png 'BlockBoost')
+
+## References
+- [Main Paper](https://proceedings.mlr.press/v238/ramos24a.html)
+- [Github Repo](https://github.com/thiagorr162/blockboost)
