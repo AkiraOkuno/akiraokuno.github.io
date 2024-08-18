@@ -1,4 +1,0 @@
-- Paper 1
-- authors
-- abstract
-- presented
