@@ -1,5 +1,5 @@
 ---
-title: "Increasing Parents' Engagement on Ed-Tech Platforms: Evidence from the Field"
+title: "Increasing Parents' Engagement on Ed-Tech Platforms: Evidence from the Field (2024)"
 collection: publications
 category: working
 permalink: /publication/increasing_edtech
